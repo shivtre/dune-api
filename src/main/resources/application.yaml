@@ -1,0 +1,21 @@
+opensearch:
+  url: https://172.20.14.105:9200
+
+dune:
+  client:
+    url: http://172.20.168.132:8080
+
+server:
+  port: 8080
+
+spring:
+  cloud:
+    openfeign:
+      httpclient:
+        disable-ssl-validation: true
+        enable: true
+
+feign:
+  httpclient:
+    disable-ssl-validation: true
+

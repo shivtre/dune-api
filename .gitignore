@@ -1,0 +1,7 @@
+node_modules
+.mvn
+.idea
+target
+mvnw
+mvnw.cmd
+/src/main/java/com/wissen/tresata/web/test/
